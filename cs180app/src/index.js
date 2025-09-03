@@ -4,33 +4,35 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
-import { Link, Redirect, Route, Switch } from "wouter";
+import { Link, Redirect, Route, Switch, Router } from "wouter";
 import Project0 from "./projects/Project0";
 import { AppBar, Container, Typography } from "@mui/material";
 
-const Router = () => (
+const RouterComponent = () => (
   <>
-    <AppBar position="static">
-      <Container maxWidth="xl" sx={{ p: 2 }}>
-        <Link href="/">
-          <Typography variant="h6">CS 180</Typography>
-        </Link>
-      </Container>
-    </AppBar>
-    <Switch>
-      <Route path="/" component={App} />
-      <Route path="/projects/0/" component={Project0} />
-      <Route>
-        <Redirect href="/" />
-      </Route>
-    </Switch>
+    <Router base="/cs180">
+      <AppBar position="static">
+        <Container maxWidth="xl" sx={{ p: 2 }}>
+          <Link href="/">
+            <Typography variant="h6">CS 180</Typography>
+          </Link>
+        </Container>
+      </AppBar>
+      <Switch>
+        <Route path="/" component={App} />
+        <Route path="/projects/0/" component={Project0} />
+        <Route>
+          <Redirect href="/" />
+        </Route>
+      </Switch>
+    </Router>
   </>
 );
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Router />
+    <RouterComponent />
   </React.StrictMode>
 );
 
