@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/cs180/static/css/main.27acd8df.css",
+    "main.js": "/cs180/static/js/main.b4f5a6ac.js",
+    "static/js/453.2961d843.chunk.js": "/cs180/static/js/453.2961d843.chunk.js",
+    "static/media/sathergate0.jpg": "/cs180/static/media/sathergate0.7b99aab9f9a3b6159f4c.jpg",
+    "static/media/francis0.jpg": "/cs180/static/media/francis0.f2b3427ad0ac7e42d57f.jpg",
+    "static/media/sathergate1.jpg": "/cs180/static/media/sathergate1.44803fb0aae99eec7724.jpg",
+    "static/media/francis1.jpg": "/cs180/static/media/francis1.ec444a3e5f99caca2d4b.jpg",
+    "static/media/DollyZoom.gif": "/cs180/static/media/DollyZoom.5fc6fe50c31c10f501ba.gif",
+    "index.html": "/cs180/index.html",
+    "main.27acd8df.css.map": "/cs180/static/css/main.27acd8df.css.map",
+    "main.b4f5a6ac.js.map": "/cs180/static/js/main.b4f5a6ac.js.map",
+    "453.2961d843.chunk.js.map": "/cs180/static/js/453.2961d843.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.27acd8df.css",
+    "static/js/main.b4f5a6ac.js"
+  ]
+}
