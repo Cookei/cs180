@@ -1,10 +1,12 @@
 import * as React from "react";
 import {
+  AppBar,
   Box,
   Card,
   CardActionArea,
   CardContent,
   Container,
+  Divider,
   Grid,
   Paper,
   Typography,
@@ -19,7 +21,7 @@ function App() {
         maxWidth="xl"
         sx={{ display: "flex", alignItems: "center", height: "100vh" }}
       >
-        <Box
+        <Paper
           elevation={3}
           sx={{
             bgcolor: "#cfe8fc",
@@ -31,11 +33,15 @@ function App() {
           }}
         >
           <div style={{ display: "flex", alignItems: "baseline", gap: "15px" }}>
-            <h1>CS 180 Webpage Report Home - Han Li</h1>
+            <Typography gutterBottom variant="h4" component="div">
+              CS 180 Webpage Report Home - Han Li
+            </Typography>
             <Link href="https://github.com/Cookei/cs180" target="_blank">
               <GitHubIcon />
             </Link>
           </div>
+          <Divider />
+          <Box sx={{ p: 3 }}></Box>
           <Container>
             <Grid container spacing={4}>
               <Grid size={4}>
@@ -131,7 +137,7 @@ function App() {
               </Grid>
             </Grid>
           </Container>
-        </Box>
+        </Paper>
       </Container>
     </>
   );

@@ -6,9 +6,17 @@ import reportWebVitals from "./reportWebVitals";
 
 import { Link, Redirect, Route, Switch } from "wouter";
 import Project0 from "./projects/Project0";
+import { AppBar, Container, Typography } from "@mui/material";
 
 const Router = () => (
   <>
+    <AppBar position="static">
+      <Container maxWidth="xl" sx={{ p: 2 }}>
+        <Link href="/">
+          <Typography variant="h6">CS 180</Typography>
+        </Link>
+      </Container>
+    </AppBar>
     <Switch>
       <Route path="/" component={App} />
       <Route path="/projects/0/" component={Project0} />
