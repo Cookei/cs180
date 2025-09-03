@@ -1,13 +1,28 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import { Link, Redirect, Route, Switch } from "wouter";
+import Project0 from "./projects/Project0";
+
+const Router = () => (
+  <>
+    <Switch>
+      <Route path="/" component={App} />
+      <Route path="/projects/0/" component={Project0} />
+      <Route>
+        <Redirect href="/" />
+      </Route>
+    </Switch>
+  </>
+);
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <Router />
   </React.StrictMode>
 );
 
