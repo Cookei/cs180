@@ -288,11 +288,11 @@ const Project1 = () => {
                   >
                     <ImageListItem>
                       <img src={nocrop_ag} alt="Align G to B" loading="lazy" />
-                      <ImageListItemBar title="Align G to B" />
+                      <ImageListItemBar title="Align G to B gif" />
                     </ImageListItem>
                     <ImageListItem>
                       <img src={nocrop_ar} alt="Align R to B" loading="lazy" />
-                      <ImageListItemBar title="Align R to B" />
+                      <ImageListItemBar title="Align R to B gif" />
                     </ImageListItem>
                   </ImageList>
                 </Box>
@@ -424,7 +424,7 @@ A\!\left[
                         alt="Crop Algin G to B"
                         loading="lazy"
                       />
-                      <ImageListItemBar title="Crop Algin G to B" />
+                      <ImageListItemBar title="Crop Algin G to B gif" />
                     </ImageListItem>
                     <ImageListItem>
                       <img
@@ -432,7 +432,7 @@ A\!\left[
                         alt="Crop Align R to B"
                         loading="lazy"
                       />
-                      <ImageListItemBar title="Crop Align R to B" />
+                      <ImageListItemBar title="Crop Align R to B gif" />
                     </ImageListItem>
                   </ImageList>
                 </Box>
