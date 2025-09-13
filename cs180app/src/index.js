@@ -6,6 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 
 import { Link, Redirect, Route, Switch, Router } from "wouter";
 import Project0 from "./projects/Project0";
+import Project1 from "./projects/Project1";
 import { AppBar, Container, Typography } from "@mui/material";
 
 const RouterComponent = () => (
@@ -21,6 +22,7 @@ const RouterComponent = () => (
       <Switch>
         <Route path="/" component={App} />
         <Route path="/projects/0/" component={Project0} />
+        <Route path="/projects/1/" component={Project1} />
         <Route>
           <Redirect href="/" />
         </Route>

@@ -72,20 +72,24 @@ function App() {
               <Grid size={4}>
                 <Card>
                   <CardActionArea>
-                    <Link>
+                    <Link href="/projects/1">
                       <CardContent>
                         <Typography gutterBottom variant="h5" component="div">
-                          TBA
+                          Project 1
                         </Typography>
-                        <Typography
-                          gutterBottom
-                          variant="h6"
-                          component="div"
-                        ></Typography>
+                        <Typography gutterBottom variant="h6" component="div">
+                          Images of the Russian Empire
+                        </Typography>
                         <Typography
                           variant="body1"
                           sx={{ color: "text.secondary" }}
-                        ></Typography>
+                        >
+                          The goal of this project is to colorize
+                          Prokudin-Gorskii photo collection. Using image
+                          alignment methods, analyze and separate the channels
+                          of each image to recreate color photography
+                          efficiently.
+                        </Typography>
                       </CardContent>
                     </Link>
                   </CardActionArea>
