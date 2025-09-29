@@ -98,20 +98,22 @@ function App() {
               <Grid size={4}>
                 <Card>
                   <CardActionArea>
-                    <Link>
+                    <Link href="/projects/2">
                       <CardContent>
                         <Typography gutterBottom variant="h5" component="div">
-                          TBA
+                          Project 2
                         </Typography>
-                        <Typography
-                          gutterBottom
-                          variant="h6"
-                          component="div"
-                        ></Typography>
+                        <Typography gutterBottom variant="h6" component="div">
+                          Fun With Frequencies!
+                        </Typography>
                         <Typography
                           variant="body1"
                           sx={{ color: "text.secondary" }}
-                        ></Typography>
+                        >
+                          The goal of this project is to play around with the
+                          frequency spectrum and gaussian kernels to create
+                          various effects!
+                        </Typography>
                       </CardContent>
                     </Link>
                   </CardActionArea>
