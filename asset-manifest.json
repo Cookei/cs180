@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cs180/static/css/main.007b9d59.css",
-    "main.js": "/cs180/static/js/main.5564560f.js",
+    "main.js": "/cs180/static/js/main.3f5389ff.js",
     "static/js/453.f5a1f64d.chunk.js": "/cs180/static/js/453.f5a1f64d.chunk.js",
     "static/media/sathergate0.jpg": "/cs180/static/media/sathergate0.7b99aab9f9a3b6159f4c.jpg",
     "static/media/francis0.jpg": "/cs180/static/media/francis0.f2b3427ad0ac7e42d57f.jpg",
@@ -18,12 +18,14 @@
     "static/media/nocrop_ar.gif": "/cs180/static/media/nocrop_ar.4963f60f673cac5d0ddb.gif",
     "static/media/melons.jpg": "/cs180/static/media/melons.f383a3e4b59454e0150a.jpg",
     "static/media/emir.jpg": "/cs180/static/media/emir.d22313fd614d769f7001.jpg",
+    "static/media/mosaic.png": "/cs180/static/media/mosaic.1836f41b64cc239e7de0.png",
     "static/media/lugano.jpg": "/cs180/static/media/lugano.15d133e919f664064d0d.jpg",
     "static/media/kivach.jpg": "/cs180/static/media/kivach.ae0a0ee998e271d01290.jpg",
     "static/media/italil.jpg": "/cs180/static/media/italil.ceca1ccedf43792cb7bf.jpg",
     "static/media/three_generations.jpg": "/cs180/static/media/three_generations.68ca1c618a04da0b7188.jpg",
     "static/media/nocrop_ag.gif": "/cs180/static/media/nocrop_ag.cc67367c080f7847b7c5.gif",
     "static/media/ekaterinburg.jpg": "/cs180/static/media/ekaterinburg.11539c396dbc00205469.jpg",
+    "static/media/comparison.png": "/cs180/static/media/comparison.811e2af1848dff230108.png",
     "static/media/lastochikino.jpg": "/cs180/static/media/lastochikino.efc38d8c828c250f2656.jpg",
     "static/media/test1_NCC_15.jpg": "/cs180/static/media/test1_NCC_15.59dd54a78d9bbcd93db0.jpg",
     "static/media/test1_NCC_30.jpg": "/cs180/static/media/test1_NCC_30.d5bd0285ed32ce3a8d8d.jpg",
@@ -36,6 +38,8 @@
     "static/media/peacock_g_0.jpg": "/cs180/static/media/peacock_g_0.bd6d5681f4ba6e355a62.jpg",
     "static/media/crop_ar.gif": "/cs180/static/media/crop_ar.f003d1b520015d7e48f7.gif",
     "static/media/convolve4.png": "/cs180/static/media/convolve4.c0dc60b447b53b195ade.png",
+    "static/media/coffee_warp.png": "/cs180/static/media/coffee_warp.f371067490a6bcf32dd1.png",
+    "static/media/math.png": "/cs180/static/media/math.fcbb7294646452d57d25.png",
     "static/media/sharpen_innout.png": "/cs180/static/media/sharpen_innout.a32c6c0ee1f0db499e6f.png",
     "static/media/food_color_FFT_input_L.jpg": "/cs180/static/media/food_color_FFT_input_L.8a3a892a12952ece7a45.jpg",
     "static/media/unsharpenSharpen_innout.png": "/cs180/static/media/unsharpenSharpen_innout.50495ab5ae939e093e0d.png",
@@ -138,11 +142,11 @@
     "static/media/KaTeX_Size3-Regular.woff2": "/cs180/static/media/KaTeX_Size3-Regular.e1951519f6f0596f7356.woff2",
     "index.html": "/cs180/index.html",
     "main.007b9d59.css.map": "/cs180/static/css/main.007b9d59.css.map",
-    "main.5564560f.js.map": "/cs180/static/js/main.5564560f.js.map",
+    "main.3f5389ff.js.map": "/cs180/static/js/main.3f5389ff.js.map",
     "453.f5a1f64d.chunk.js.map": "/cs180/static/js/453.f5a1f64d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.007b9d59.css",
-    "static/js/main.5564560f.js"
+    "static/js/main.3f5389ff.js"
   ]
 }
