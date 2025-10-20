@@ -122,10 +122,10 @@ function App() {
               <Grid size={4}>
                 <Card>
                   <CardActionArea>
-                    <Link>
+                    <Link href="/projects/3">
                       <CardContent>
                         <Typography gutterBottom variant="h5" component="div">
-                          TBA
+                          Project 3
                         </Typography>
                         <Typography
                           gutterBottom

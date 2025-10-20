@@ -9,6 +9,7 @@ import Project0 from "./projects/Project0";
 import Project1 from "./projects/Project1";
 import { AppBar, Container, Typography } from "@mui/material";
 import Project2 from "./projects/Project2";
+import Project3 from "./projects/Project3";
 
 const RouterComponent = () => (
   <>
@@ -25,6 +26,7 @@ const RouterComponent = () => (
         <Route path="/projects/0/" component={Project0} />
         <Route path="/projects/1/" component={Project1} />
         <Route path="/projects/2/" component={Project2} />
+        <Route path="/projects/3/" component={Project3} />
         <Route>
           <Redirect href="/" />
         </Route>
