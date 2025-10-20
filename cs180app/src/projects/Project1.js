@@ -540,6 +540,7 @@ A\!\left[
                     <a
                       href="https://en.wikipedia.org/wiki/Pyramid_%28image_processing%29"
                       target="_blank"
+                      className="noDecor"
                     >
                       <ImageListItem>
                         <img

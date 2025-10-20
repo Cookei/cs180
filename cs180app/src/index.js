@@ -16,7 +16,7 @@ const RouterComponent = () => (
     <Router base="/cs180">
       <AppBar position="static">
         <Container maxWidth="xl" sx={{ p: 2 }}>
-          <Link href="/">
+          <Link href="/" className={"noDecor"}>
             <Typography variant="h6">CS 180</Typography>
           </Link>
         </Container>
@@ -27,6 +27,8 @@ const RouterComponent = () => (
         <Route path="/projects/1/" component={Project1} />
         <Route path="/projects/2/" component={Project2} />
         <Route path="/projects/3/" component={Project3} />
+        <Route path="/projects/4/" component={App} />
+        <Route path="/projects/5/" component={App} />
         <Route>
           <Redirect href="/" />
         </Route>

@@ -36,7 +36,11 @@ function App() {
             <Typography gutterBottom variant="h4" component="div">
               CS 180 Webpage Report Home - Han Li
             </Typography>
-            <Link href="https://github.com/Cookei/cs180" target="_blank">
+            <Link
+              href="https://github.com/Cookei/cs180"
+              target="_blank"
+              className={"noDecor"}
+            >
               <GitHubIcon />
             </Link>
           </div>
@@ -47,7 +51,7 @@ function App() {
               <Grid size={4}>
                 <Card>
                   <CardActionArea>
-                    <Link href="/projects/0">
+                    <Link href="/projects/0" className={"noDecor"}>
                       <CardContent>
                         <Typography gutterBottom variant="h5" component="div">
                           Project 0
@@ -72,7 +76,7 @@ function App() {
               <Grid size={4}>
                 <Card>
                   <CardActionArea>
-                    <Link href="/projects/1">
+                    <Link href="/projects/1" className={"noDecor"}>
                       <CardContent>
                         <Typography gutterBottom variant="h5" component="div">
                           Project 1
@@ -98,7 +102,7 @@ function App() {
               <Grid size={4}>
                 <Card>
                   <CardActionArea>
-                    <Link href="/projects/2">
+                    <Link href="/projects/2" className={"noDecor"}>
                       <CardContent>
                         <Typography gutterBottom variant="h5" component="div">
                           Project 2
@@ -122,20 +126,21 @@ function App() {
               <Grid size={4}>
                 <Card>
                   <CardActionArea>
-                    <Link href="/projects/3">
+                    <Link href="/projects/3" className={"noDecor"}>
                       <CardContent>
                         <Typography gutterBottom variant="h5" component="div">
                           Project 3
                         </Typography>
-                        <Typography
-                          gutterBottom
-                          variant="h6"
-                          component="div"
-                        ></Typography>
+                        <Typography gutterBottom variant="h6" component="div">
+                          [Auto]Stitching Photo Mosaics
+                        </Typography>
                         <Typography
                           variant="body1"
                           sx={{ color: "text.secondary" }}
-                        ></Typography>
+                        >
+                          This goal of this project is to stitch together many
+                          photographs to create larger composite images
+                        </Typography>
                       </CardContent>
                     </Link>
                   </CardActionArea>

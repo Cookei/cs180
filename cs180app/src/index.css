@@ -12,14 +12,14 @@ code {
     monospace;
 }
 
-a {
+a.noDecor {
   color: inherit; /* Use the parent’s text color */
   text-decoration: none; /* Remove underline */
 }
 
-a:visited,
-a:active,
-a:hover {
+a.noDecor:visited,
+a.noDecor:active,
+a.noDecor:hover {
   color: inherit; /* No purple after visiting */
   text-decoration: none; /* Keep consistent look */
 }
