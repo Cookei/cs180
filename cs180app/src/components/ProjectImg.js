@@ -7,6 +7,7 @@ const ProjectImg = ({
   title = [null],
   maxWidth = 600,
   titleRight = false,
+  sx = {},
 }) => {
   return (
     <Box display={"flex"} justifyContent={"center"}>
@@ -21,8 +22,13 @@ const ProjectImg = ({
       >
         {images.map((item, index) => {
           return (
-            <ImageListItem>
-              <img src={item} alt={alt[index]} loading="lazy" />
+            <ImageListItem sx={sx}>
+              <img
+                src={item}
+                alt={alt[index]}
+                loading="lazy"
+                style={{ objectFit: "contain" }}
+              />
               {title != null && title[index] != null ? (
                 <ImageListItemBar
                   title={title[index]}

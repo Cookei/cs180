@@ -146,6 +146,29 @@ function App() {
                   </CardActionArea>
                 </Card>
               </Grid>
+              <Grid size={4}>
+                <Card>
+                  <CardActionArea>
+                    <Link href="/projects/4" className={"noDecor"}>
+                      <CardContent>
+                        <Typography gutterBottom variant="h5" component="div">
+                          Project 4
+                        </Typography>
+                        <Typography gutterBottom variant="h6" component="div">
+                          NeRFs!
+                        </Typography>
+                        <Typography
+                          variant="body1"
+                          sx={{ color: "text.secondary" }}
+                        >
+                          This goal of this project is to create Neural Radiance
+                          Fields (NeRFs)!
+                        </Typography>
+                      </CardContent>
+                    </Link>
+                  </CardActionArea>
+                </Card>
+              </Grid>
             </Grid>
           </Container>
         </Paper>
